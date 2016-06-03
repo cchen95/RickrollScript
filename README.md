@@ -1,1 +1,2 @@
 # RickrollScript
+usage: ./test.sh
