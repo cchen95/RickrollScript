@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo osascript -e "set Volume 10"
+osascript -e "set Volume 10"
 open https://www.youtube.com/watch?v=dQw4w9WgXcQ
 sleep 0.5
 open -a 'App Store'
