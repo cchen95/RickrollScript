@@ -1,6 +1,7 @@
 #!/bin/bash
-#sudo osascript -e "set Volume 10"
+sudo osascript -e "set Volume 10"
 open https://www.youtube.com/watch?v=dQw4w9WgXcQ
+sleep 0.5
 open -a 'App Store'
 
 /usr/bin/osascript -e "tell application \"Google Chrome\"" -e "activate" -e "make new window" -e "tell application \"System Events\"" -e "keystroke \"f\" using {control down, command down}" -e "end tell" -e "end tell"
